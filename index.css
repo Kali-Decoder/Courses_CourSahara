@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+.container
+{
+    border: 2px solid black;
+    background-color:aliceblue;
+}
+button
+{
+    padding: 6px 30px !important; 
+    width: 100% !important;
+    font-weight: 700;
+    transform: all .5s;
+}
+button:focus
+{
+    background-color: aqua !important;
+    color: black !important;
+}
+/* .course
+{
+    padding: 10px 20px !important;
+    width: 10rem !important;
+    height: auto !important;
+    border: 1px solid black;
+    margin: auto;
+    
+
+} */
+.link   
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button:hover{
+    background-color: #fff !important;
+    color: black !important;
+}
+.img-box
+{
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 35%;
+    
+}
+footer{
+    background-color: black;
+    width: 100% !important;
+}
